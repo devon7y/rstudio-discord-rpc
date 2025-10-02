@@ -2,6 +2,8 @@
 
 This R package integrates Discord Rich Presence with RStudio, allowing you to display the R script you are currently editing in your Discord status. It automatically updates as you switch between files, similar to the VS Code "vscord" extension.
 
+![Demo Image](rstudio_discord_rpc.png)
+
 ## Features
 
 - **Automatic Detection**: Shows the currently active file in the RStudio editor.
