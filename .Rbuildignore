@@ -4,3 +4,6 @@
 ^LICENSE\.md$
 ^\.gitignore$
 ^\.git$
+^IMPLEMENTATION_NOTES\.md$
+^CRAN-SUBMISSION$
+^cran-comments\.md$

@@ -91,6 +91,9 @@ install_pypresence <- function(python_path) {
   return(FALSE)
 }
 
+# Package-level environment for storing state
+.pkg_env <- new.env(parent = emptyenv())
+
 #' Get Package Environment
 #'
 #' Returns the package environment for storing state
@@ -98,8 +101,5 @@ install_pypresence <- function(python_path) {
 #' @return Environment
 #' @keywords internal
 pkg_env <- function() {
-  if (!exists(".discordrpc_env", envir = .GlobalEnv)) {
-    assign(".discordrpc_env", new.env(), envir = .GlobalEnv)
-  }
-  get(".discordrpc_env", envir = .GlobalEnv)
+  .pkg_env
 }

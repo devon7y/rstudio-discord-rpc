@@ -3,7 +3,7 @@ Type: Package
 Title: Discord Rich Presence Integration for RStudio
 Version: 0.1.0
 Authors@R: c(
-    person("devon7y", role = c("aut", "cre"))
+    person("Devon", "Yanitski", email = "devon7y@gmail.com", role = c("aut", "cre"))
     )
 Description: Integrates Discord Rich Presence with RStudio, allowing you to
     display the R script you are currently editing in your Discord status.
@@ -12,7 +12,7 @@ Description: Integrates Discord Rich Presence with RStudio, allowing you to
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2
 Imports:
     rstudioapi,
     later
