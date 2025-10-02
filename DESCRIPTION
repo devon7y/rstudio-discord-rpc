@@ -1,0 +1,23 @@
+Package: discordrpc
+Type: Package
+Title: Discord Rich Presence Integration for RStudio
+Version: 0.1.0
+Authors@R: c(
+    person("devon7y", role = c("aut", "cre"))
+    )
+Description: Integrates Discord Rich Presence with RStudio, allowing you to
+    display the R script you are currently editing in your Discord status.
+    It automatically updates as you switch between files, similar to VS Code
+    Discord integrations.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Imports:
+    rstudioapi,
+    later
+Suggests:
+    testthat (>= 3.0.0)
+SystemRequirements: Python (>= 3.6), pypresence Python package
+URL: https://github.com/devon7y/rstudio-discord-rpc
+BugReports: https://github.com/devon7y/rstudio-discord-rpc/issues

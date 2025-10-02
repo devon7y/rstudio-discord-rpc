@@ -1,0 +1,14 @@
+Name: Start Discord Rich Presence
+Description: Start Discord Rich Presence integration for RStudio
+Binding: start
+Interactive: false
+
+Name: Stop Discord Rich Presence
+Description: Stop Discord Rich Presence integration for RStudio
+Binding: stop
+Interactive: false
+
+Name: Setup Discord Rich Presence
+Description: Configure Discord Rich Presence integration for RStudio
+Binding: setup
+Interactive: true
