@@ -21,11 +21,31 @@ This R package integrates Discord Rich Presence with RStudio, allowing you to di
 
 ### Install the Package
 
-```r
-# Install from GitHub
-devtools::install_github("devon7y/rstudio-discord-rpc")
+**Option 1: From R-universe (Easiest)**
 
-# Or install locally
+```r
+# Install using standard install.packages()
+install.packages('discordrpc', repos = 'https://devon7y.r-universe.dev')
+```
+
+**Option 2: From GitHub**
+
+```r
+# Install from GitHub using devtools
+devtools::install_github("devon7y/rstudio-discord-rpc")
+```
+
+**Option 3: From CRAN** (pending approval)
+
+```r
+# Once approved on CRAN, you'll be able to install with:
+install.packages("discordrpc")
+```
+
+**Option 4: Install Locally**
+
+```r
+# Install from a local copy
 devtools::install("/path/to/rstudio-discord-rpc")
 ```
 
